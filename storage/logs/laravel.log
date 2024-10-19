@@ -1,0 +1,360 @@
+[2024-10-17 11:45:19] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /home/avohou/Documents/Laravel/laravel-example-app1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-10-17 11:45:22] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /home/avohou/Documents/Laravel/laravel-example-app1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-10-17 11:45:24] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /home/avohou/Documents/Laravel/laravel-example-app1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-10-17 16:17:55] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /home/avohou/Documents/Laravel/laravel-example-app1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-10-17 16:17:57] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /home/avohou/Documents/Laravel/laravel-example-app1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-10-17 16:18:00] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /home/avohou/Documents/Laravel/laravel-example-app1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-10-17 21:36:57] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /home/avohou/Documents/Laravel/laravel-example-app1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-10-17 21:36:59] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /home/avohou/Documents/Laravel/laravel-example-app1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-10-17 21:37:01] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /home/avohou/Documents/Laravel/laravel-example-app1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-10-18 12:19:16] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /home/avohou/Documents/Laravel/laravel-example-app1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-10-18 12:19:19] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /home/avohou/Documents/Laravel/laravel-example-app1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-10-18 12:19:21] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /home/avohou/Documents/Laravel/laravel-example-app1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-10-18 13:46:39] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /home/avohou/Documents/Laravel/laravel-example-app1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-10-18 13:46:42] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /home/avohou/Documents/Laravel/laravel-example-app1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-10-18 13:46:45] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /home/avohou/Documents/Laravel/laravel-example-app1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-10-18 21:11:12] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /home/avohou/Documents/Laravel/laravel-example-app1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-10-18 21:11:14] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /home/avohou/Documents/Laravel/laravel-example-app1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-10-18 21:11:16] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /home/avohou/Documents/Laravel/laravel-example-app1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-10-19 06:40:26] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /home/avohou/Documents/Laravel/laravel-example-app1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-10-19 06:40:30] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /home/avohou/Documents/Laravel/laravel-example-app1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-10-19 06:40:32] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /home/avohou/Documents/Laravel/laravel-example-app1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-10-19 14:49:06] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /home/avohou/Documents/Laravel/laravel-example-app1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-10-19 14:49:08] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /home/avohou/Documents/Laravel/laravel-example-app1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2024-10-19 14:49:11] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php:223)
+[stacktrace]
+#0 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Console/Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(1096): Illuminate\\Console\\Command->run()
+#7 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 /home/avohou/Documents/Laravel/laravel-example-app1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 /home/avohou/Documents/Laravel/laravel-example-app1/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 

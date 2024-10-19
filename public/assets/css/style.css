@@ -47,6 +47,8 @@
 }
 body{
     background-color: #fff;
+    max-width: 1920px;
+    margin-inline: auto;
 }
 ul{
     list-style: none;
@@ -85,11 +87,27 @@ a:hover,a:hover i{
 
 }
 .caroussel{
+    margin-inline: auto;
+    width: 80%;
+    overflow: hidden;
+}
+.caroussel .caroussel-items{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 50px;
-    overflow: hidden;
+    justify-content: flex-start;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    /* gap: 70px; */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    width: fit-content;
+    margin-inline: auto;
+}
+.caroussel .caroussel-items::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+.caroussel .caroussel-items.scrolling{
+    scroll-behavior: auto;
 }
 .caroussel.dragging .caroussel-item{
     cursor: grab;
@@ -102,7 +120,7 @@ a:hover,a:hover i{
     color: #000;
     text-transform: capitalize;
     text-align: center;
-    margin-block: 3 0px;
+    margin-block: 30px;
     position: relative;
     padding: 5px;
 }
@@ -125,7 +143,323 @@ a:hover,a:hover i{
     max-width: 500px;
     margin-inline: auto;
 }
-/* >  */
+.btn-link,.btn-link-outline{
+    margin-block: 20px;
+    display: inline-block;
+    color: #fff;
+    background-color: light-dark(var(--primary-light-orange-color), var(--primary-dark-orange-color));
+    padding: 15px 30px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.btn-link-outline{
+    background-color: transparent;
+    border: 1px solid light-dark(var(--primary-light-orange-color), var(--primary-dark-orange-color));
+}
+.btn-link *,
+.btn-link-outline *{
+    color: #fff;
+}
+.btn-link:hover{
+    color: var(--primary-light-orange-color);
+    background-color: var(--dark-bgcolor);
+    transition: 0.5s ease;
+}
+.btn-link-outline:hover{
+    color: #fff;
+    background-color: light-dark(var(--primary-light-orange-color), var(--primary-dark-orange-color));
+    transition: 0.5s ease;
+}
+#welcome-section{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/hero-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#welcome-section .welcome-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+}
+#welcome-section .welcome-text h1{
+    font-size: 50px;
+    font-family: "Poppins-Bold";
+    color: #fff;
+}
+#welcome-section .welcome-text h3{
+    font-size: 15px;
+    color: light-dark(var(--primary-light-orange-color), var(--primary-dark-orange-color));
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+#welcome-section .welcome-text .btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#welcome-section header{
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    background: #000;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    padding-inline: var(--padding-section-inline);
+    padding-block: 30px;
+}
+#welcome-section header .logo{
+    width: 150px;
+}
+#availability{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F5F5F5;
+}
+#availability .bloc{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#availability .bloc .icon-box{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dotted light-dark(var(--primary-light-orange-color), var(--primary-dark-orange-color));
+    border-radius: 50%;
+}
+#availability .bloc .icon-box i{
+    font-size: 20px;
+    color: light-dark(var(--primary-light-orange-color), var(--primary-dark-orange-color));
+}
+#availability h4{
+    color: #000;
+}
+#availability p{
+    color: #051922cc;
+}
+#our-products .products-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+#our-products .products-container .product-container{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+#our-products .products-container .product-container:hover{
+    transition: 0.3s ease-in-out;
+    box-shadow: none;
+}
+#our-products .products-container .product-container .product-name,
+#our-products .products-container .product-container .product-price{
+    font-family: "Poppins-Bold";
+    color: #000;
+    font-size: 20px;
+}
+#our-products .products-container .product-container img{
+    width: 261px;
+    height: 261px;
+    object-fit: cover;
+}
+#deal-of-month{
+    display: flex;
+    align-items: center;
+    background: #F6F6F6;
+    gap: 30px;
+}
+#deal-of-month .left{
+    position: relative;
+}
+#deal-of-month .off{
+    width: 100px;
+    height: 100px;
+    font-family: "Poppins-Bold";
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: light-dark(var(--primary-light-orange-color), var(--primary-dark-orange-color));
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+#deal-of-month .off::before{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    content: "";
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: #ff7300;
+    opacity: 0.5;
+}
+#deal-of-month .off span{
+    color: #000;
+}
+#deal-of-month .off .percent{
+    font-weight: bold;
+    font-size: 20px;
+}
+#deal-of-month .left img{
+    max-width: 600px;
+}
+#deal-of-month .section-subtitle{
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #000;
+}
+#deal-of-month .days-off{
+    margin-block: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#deal-of-month .days-off .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 0px;
+    border: 3px solid light-dark(var(--primary-light-orange-color), var(--primary-dark-orange-color));
+}
+#deal-of-month .days-off .card .number{
+    font-size: 25px;
+    font-weight: bold;
+    color: light-dark(var(--primary-light-orange-color), var(--primary-dark-orange-color));
+}
+#deal-of-month,
+#testimonial,
+#our-products,
+#availability,
+#welcome-section{
+    padding-inline: var(--padding-section-inline);
+    padding-block: var(--padding-section-bottom);
+}
+#deal-the-month .section-subtitle{
+    text-transform: uppercase;
+}
+#testimonial{
+    background-color: light-dark(#eee, #fff);
+}
+section h2{
+    font-size: 40px;
+    font-family: "Poppins-Bold";
+    color: #000;
+    text-transform: capitalize;
+}
+#testimonial .caroussel{
+    padding-block: var(--padding-section-bottom);
+}
+#testimonial .caroussel-item{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    min-width: 100%;
+}
+#testimonial .caroussel-item i{
+    display: inline-block;
+    font-size: 30px;
+    margin: auto;
+}
+#testimonial .caroussel-item img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: inline-block;
+    margin: auto;
+}
+#testimonial .caroussel-item h4{
+    font-family: "Poppins-Bold";
+    color: #000;
+}
+#testimonial .caroussel-item .post{
+    color: #666;
+    font-weight: bold;
+}
+#testimonial .caroussel-item h4,
+#testimonial .caroussel-item .post,
+#testimonial .caroussel-item .comment{
+    text-align: center;
+}
+#testimonial .about-us{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-block: var(--padding-section-bottom);
+    width: fit-content;
+    margin: auto;
+}
+#testimonial .about-us img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#testimonial .present{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 500px;
+}
+#testimonial .present .btn-link{
+    width: fit-content;
+}
+#sale-off{
+    background-color: light-dark(#eee, #fff);
+    padding-inline: var(--padding-section-inline);
+    padding-block: var(--padding-section-bottom);
+    background-image: url(../images/sale-off.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sale-off h2{
+    font-size: 40px;
+    font-family: "Poppins-Bold";
+    color: #000;
+    text-transform: capitalize;
+    margin-block: 30px;
+}
+section h2 span{
+    color: light-dark(var(--primary-light-orange-color), var(--primary-dark-orange-color));
+}
+#sale-off .off{
+    font-size: 60px;
+    font-weight: bold;
+    color: light-dark(var(--primary-light-orange-color), var(--primary-dark-orange-color));
+}
+#sale-off .infos{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-block: 20px;
+}
 #news{
     background-color: #fff;
 }
@@ -133,6 +467,7 @@ a:hover,a:hover i{
     padding-inline: var(--padding-section-inline);
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 #news > div > div{
@@ -199,16 +534,6 @@ a:hover,a:hover i{
     padding-block: 150px;
     display: grid;
     place-items: center;
-}
-#news #more-news a{
-    color: #fff;
-    background-color: light-dark(var(--primary-light-orange-color), var(--primary-dark-orange-color));
-    padding: 15px 30px;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
 }
 #patners{
     background-color: light-dark(#eee, #fff);
