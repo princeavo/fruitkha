@@ -64,6 +64,9 @@ a:hover,a:hover i{
     -ms-transition: 0.1s ease-in;
     -o-transition: 0.1s ease-in;
 }
+a.active{
+    color: light-dark(var(--primary-light-orange-color), var(--primary-dark-orange-color));
+}
 :root {
     color-scheme: light dark;
 
@@ -100,8 +103,9 @@ a:hover,a:hover i{
     /* gap: 70px; */
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
-    width: fit-content;
+    /* width: fit-content; */
     margin-inline: auto;
+    width: 100%;
 }
 .caroussel .caroussel-items::-webkit-scrollbar {
     display: none;  /* Safari and Chrome */
@@ -190,12 +194,12 @@ a:hover,a:hover i{
     gap: 15px;
     flex-direction: column;
 }
-#welcome-section .welcome-text h1{
+.main-section-title{
     font-size: 50px;
     font-family: "Poppins-Bold";
     color: #fff;
 }
-#welcome-section .welcome-text h3{
+.main-section-sub-title{
     font-size: 15px;
     color: light-dark(var(--primary-light-orange-color), var(--primary-dark-orange-color));
     text-transform: uppercase;
@@ -207,20 +211,112 @@ a:hover,a:hover i{
     justify-content: center;
     gap: 20px;
 }
-#welcome-section header{
+#welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    background-color: #374B56;
+    height: 450px;
+    margin-bottom: 150px;
+}
+body > header{
     position: fixed;
     top: 0;
     left:0;
     right: 0;
-    background: #000;
     z-index: 10;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding-inline: var(--padding-section-inline);
     padding-block: 30px;
+    max-width: 1920px;
+    margin-inline: auto;
 }
-#welcome-section header .logo{
+body > header.scroll{
+    transition: 0.5s ease-in-out;
+    background-color: #051922;
+}
+body > header nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+body > header nav ul li{
+    padding: 10px;
+}
+body > header .logo{
     width: 150px;
+}
+body > header .icons{
+    display: flex;
+    gap: 30px;
+}
+body > header .icons a{
+    padding: 10px;
+}
+.modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: #013955;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 20;
+    display: none;
+}
+.modal.open{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal .modal-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.modal .modal-body h2{
+    font-family: "Poppins-Bold";
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #fff;
+}
+.modal .modal-body button{
+    border: none;
+    outline: none;
+}
+.modal .modal-body input[type="text"]{
+    width: 600px;
+    max-width: 70vw;
+    padding: 25px 0;
+    border: none;
+    background-color: transparent;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 2px solid light-dark(var(--primary-light-orange-color), var(--primary-dark-orange-color));
+    outline: none;
+    color: #fff;
+    font-family: "Poppins-Bold";
+}
+.modal .modal-body input[type="text"]::placeholder{
+    color: #fff;
+}
+.modal .modal-body input[type="text"]:focus{
+    border: 2px solid #fff;
+}
+.modal .close-button{
+    padding: 5px 10px;
+    cursor: pointer;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    z-index: 30;
 }
 #availability{
     display: flex;
@@ -463,29 +559,31 @@ section h2 span{
 #news{
     background-color: #fff;
 }
-#news > div{
+#news .new-container{
     padding-inline: var(--padding-section-inline);
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
-#news > div > div{
+#news .new-container .news{
     display: flex;
     flex-direction: column;
     gap: 20px;
     box-shadow: 0 0 10px #00000031;
     padding-bottom: 20px;
+    flex: 30% !important;
 }
-#news > div > div h4{
+#news .new-container .news h4{
     padding-inline: 10px;
 }
-#news > div > div h4 a{
+#news .new-container .news h4 a{
     font-family: "Poppins-Bold";
     font-size: 20px;
     color: #000;
 }
-#news > div > div > a > img{
+#news .new-container .news > a > img{
     width: 100%;
     height: 220px;
     object-fit: cover;

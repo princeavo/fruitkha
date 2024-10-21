@@ -8,35 +8,15 @@
     <link rel="stylesheet" href="{{ asset('assets/fontawesome/css/brands.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/fontawesome/css/solid.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <title>Fruitkha</title>
+    <title>{{ env("APP_NAME") }} | Home</title>
 </head>
 <body>
+    @include('partials.header')
     <main>
         <section id="welcome-section">
-            <header>
-                <img src="{{ asset('assets/images/logo.png') }}" alt="" class="logo">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#">Home</a>
-                            <a href="#">About</a>
-                            <a href="#">Pages</a>
-                            <a href="#">News</a>
-                            <a href="#">Conctact</a>
-                            <a href="#">Shop</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="icons">
-                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                    <a href="#">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </a>
-                </div>
-            </header>
             <div class="welcome-text">
-                <h3>Fresh & Organic</h3>
-                <h1>Delicious Seasonal Fruits</h1>
+                <h3 class="main-section-sub-title">Fresh & Organic</h3>
+                <h1 class="main-section-title">Delicious Seasonal Fruits</h1>
                 <div class="btns">
                     <a href="#" class="btn-link">
                         Fruit Collection
@@ -220,8 +200,8 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Aliquid, fuga quas itaque eveniet beatae optio.
             </p>
-            <div>
-                <div>
+            <div class="new-container">
+                <div class="news">
                     <a href="#">
                         <img src="{{ asset('assets/images/news/1.jpg') }}" alt="">
                     </a>
@@ -241,7 +221,7 @@
                     </div>
                     <a href="#" class="read-more-link">Read more</a>
                 </div>
-                <div>
+                <div class="news">
                     <a href="#">
                         <img src="{{ asset('assets/images/news/2.jpg') }}" alt="">
                     </a>
@@ -261,7 +241,7 @@
                     </div>
                     <a href="#" class="read-more-link">Read more</a>
                 </div>
-                <div>
+                <div class="news">
                     <a href="#">
                         <img src="{{ asset('assets/images/news/3.jpg') }}" alt="">
                     </a>
@@ -310,72 +290,22 @@
             </div>
         </section>
     </main>
-    <footer>
-        <div>
-            <div>
-                <h2>About us</h2>
-                <p>
-                    Ut enim ad minim veniam perspiciatis unde omnis iste natus error
-                    sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                    eaque ipsa quae.
-                </p>
-            </div>
-            <div>
-                <h2>Get in Touch</h2>
-                <span>34/8, East Hukupara, Gifirtok, Sadan.</span>
-                <span>support@fruitkha.com</span>
-                <span>+00 111 222 3333</span>
-            </div>
-            <div>
-                <h2>Pages</h2>
-                <ul>
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Shop</a>
-                    </li>
-                    <li>
-                        <a href="#">News</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h2>Subscribe</h2>
-                <p>Subscribe to our mailing list to get the latest updates.</p>
-                <form action="#">
-                    <input type="text" placeholder="Email">
-                    <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
-                </form>
-            </div>
-        </div>
-        <div id="copyrigth">
-            <p>Copyrights © {{ date('Y') }} - <a href="{{ route('home') }}" id="author-name">Prince AVOHOU</a>, All Rights Reserved.</p>
-            <div class="icons">
-                <a href="#">
-                    <i class="fa-brands fa-facebook-f"></i>
-                </a>
-                <a href="#">
-                    <i class="fa-brands fa-twitter"></i>
-                </a>
-                <a href="#">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-                <a href="#">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                </a>
-                <a href="#">
-                    <i class="fab fa-dribbble"></i>
-                </a>
-            </div>
-        </div>
-    </footer>
+    @include('partials.footer')
+    <div class="modal" id="search-modal">
+        <button type="button" class="close-button">
+            <i class="fa fa-close"></i>
+        </button>
+        <form class="modal-body">
+            <h2>Search For:</h2>
+            <input type="text" name="keyword" placeholder="Keywords">
+            <button type="submit" class="btn-link">
+                Search <i class="fa fa-search"></i>
+            </button>
+        </form>
+    </div>
     <script src="{{ asset('assets/js/caroussel.js') }}"></script>
+    <script src="{{ asset('assets/js/header_change_background.js') }}"></script>
+    <script src="{{ asset('assets/js/modal.js') }}"></script>
+    <script src="{{ asset('assets/js/active_link.js') }}"></script>
 </body>
 </html>

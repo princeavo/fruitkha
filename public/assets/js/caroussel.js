@@ -10,12 +10,12 @@ document.addEventListener("DOMContentLoaded",function(){
             carousselItems.insertAdjacentHTML("beforeend",item.outerHTML);
         });
         const carousselScrollInterval = setInterval(function(){
-            carousselItems.scrollLeft += carousselItems.offsetWidth;
+            carousselItems.scrollLeft += items[0].offsetWidth;
             if(carousselItems.scrollLeft == carousselItems.scrollWidth-carousselItems.offsetWidth){
                 carousselItems.classList.add("scrolling");
-                carousselItems.scrollLeft = (items.length - 1) * carousselItems.offsetWidth;
+                carousselItems.scrollLeft = (items.length - 1) * items[0].offsetWidth;
                 carousselItems.classList.remove("scrolling");
-                carousselItems.scrollLeft += carousselItems.offsetWidth;
+                carousselItems.scrollLeft += items[0].offsetWidth;
             }
         },2000);
     });
