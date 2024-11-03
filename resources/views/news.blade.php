@@ -14,12 +14,7 @@
 <body>
     @include("partials.header")
     <main>
-        <section id="welcome">
-            <div class="welcome-text">
-                <h3 class="main-section-sub-title">Organic Information</h3>
-                <h1 class="main-section-title">News Article</h1>
-            </div>
-        </section>
+        @include("partials.welcome_section",["sectionSubTitle" => "Organic Information","sectionTitle" => "News Article"])
         <section id="news">
             <div class="new-container">
                 <div class="news">
@@ -143,10 +138,43 @@
                     <a href="#" class="read-more-link">Read more</a>
                 </div>
             </div>
-            <div id="more-news">
-                <a href="#" class="btn-link">
-                    More news
+            <div id="more-news-pagination">
+                <a href="#" class="pagination-link">
+                    Prev
                 </a>
+                <a href="#" class="pagination-link">
+                    1
+                </a>
+                <a href="#" class="pagination-link active">
+                    2
+                </a>
+                <a href="#" class="pagination-link">
+                    3
+                </a>
+                <a href="#" class="pagination-link">
+                    Next
+                </a>
+            </div>
+        </section>
+        <section id="patners" class="gray-background-and-padding">
+            <div class="caroussel">
+                <div class="caroussel-items">
+                    <div class="caroussel-item">
+                        <img src="{{ asset('assets/images/patners/1.png') }}" alt="" draggable="false">
+                    </div>
+                    <div class="caroussel-item">
+                        <img src="{{ asset('assets/images/patners/2.png') }}" alt="" draggable="false">
+                    </div>
+                    <div class="caroussel-item">
+                        <img src="{{ asset('assets/images/patners/3.png') }}" alt="" draggable="false">
+                    </div>
+                    <div class="caroussel-item">
+                        <img src="{{ asset('assets/images/patners/4.png') }}" alt="" draggable="false">
+                    </div>
+                    <div class="caroussel-item">
+                        <img src="{{ asset('assets/images/patners/5.png') }}" alt="" draggable="false">
+                    </div>
+                </div>
             </div>
         </section>
     </main>
