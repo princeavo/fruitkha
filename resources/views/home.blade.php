@@ -167,7 +167,9 @@
                 </div>
             </div>
             <div class="about-us">
-                <img src="{{ asset('assets/images/abt.jpg') }}" alt="">
+                <div>
+                    <img src="{{ asset('assets/images/abt.jpg') }}" alt="">
+                </div>
                 <div class="present">
                     <p class="created_date">
                         Since Year 1999
@@ -268,29 +270,8 @@
                 </a>
             </div>
         </section>
-        <section id="patners">
-            <div class="caroussel">
-                <div class="caroussel-items">
-                    <div class="caroussel-item">
-                        <img src="{{ asset('assets/images/patners/1.png') }}" alt="" draggable="false">
-                    </div>
-                    <div class="caroussel-item">
-                        <img src="{{ asset('assets/images/patners/2.png') }}" alt="" draggable="false">
-                    </div>
-                    <div class="caroussel-item">
-                        <img src="{{ asset('assets/images/patners/3.png') }}" alt="" draggable="false">
-                    </div>
-                    <div class="caroussel-item">
-                        <img src="{{ asset('assets/images/patners/4.png') }}" alt="" draggable="false">
-                    </div>
-                    <div class="caroussel-item">
-                        <img src="{{ asset('assets/images/patners/5.png') }}" alt="" draggable="false">
-                    </div>
-                </div>
-            </div>
-        </section>
+        @include("partials.patners")
     </main>
-    @include('partials.footer')
     <div class="modal" id="search-modal">
         <button type="button" class="close-button">
             <i class="fa fa-close"></i>
@@ -303,6 +284,7 @@
             </button>
         </form>
     </div>
+    @include('partials.footer')
     <script src="{{ asset('assets/js/caroussel.js') }}"></script>
     <script src="{{ asset('assets/js/header_change_background.js') }}"></script>
     <script src="{{ asset('assets/js/modal.js') }}"></script>

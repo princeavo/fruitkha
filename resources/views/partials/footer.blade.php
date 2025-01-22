@@ -21,16 +21,16 @@
                     <a href="{{ route('home') }}">Home</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="{{ route('about') }}">About</a>
                 </li>
                 <li>
-                    <a href="#">Shop</a>
+                    <a href="{{ route('shop') }}">Shop</a>
                 </li>
                 <li>
                     <a href="{{ route('news') }}">News</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="{{ route('contact') }}">Contact</a>
                 </li>
             </ul>
         </div>
@@ -44,7 +44,7 @@
         </div>
     </div>
     <div id="copyrigth">
-        <p>Copyrights © {{ date('Y') }} - <a href="{{ route('home') }}" id="author-name">Prince AVOHOU</a>, All Rights Reserved.</p>
+        <p>Copyrights © {{ date('Y') }} - <a href="tel:+2290161528962" id="author-name">Prince AVOHOU</a>, All Rights Reserved.</p>
         <div class="icons">
             <a href="#">
                 <i class="fa-brands fa-facebook-f"></i>
@@ -64,3 +64,5 @@
         </div>
     </div>
 </footer>
+
+<script src="{{ asset('assets/js/responsive_header.js') }}"></script>

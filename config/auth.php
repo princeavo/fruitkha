@@ -111,5 +111,5 @@ return [
     */
 
     'password_timeout' => 10800,
-
+    'remember_me_lifetime' => env('REMEMBER_ME_LIFETIME', 1825),
 ];

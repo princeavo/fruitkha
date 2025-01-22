@@ -13,12 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function (){
     return view('home');
 })->name("home");
+Route::get('/about', function () {
+    return view('about');
+})->name("about");
 Route::get("news", function () {
-    return view("news");
+    return view("news.news");
 })->name("news");
+Route::get("news/single", function () {
+    return view("news.single");
+})->name("news.single");
 Route::get("shop", function () {
     return view("shop.shop");
 })->name("shop");
@@ -34,3 +40,6 @@ Route::get("/single-product", function(){
 Route::get("/cart", function(){
     return view("shop.cart");
 })->name("shop.cart");
+Route::get('/contact', function () {
+    return view('contact');
+})->name("contact");

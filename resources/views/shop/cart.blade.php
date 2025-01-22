@@ -50,7 +50,7 @@
                             <td class="center">
                                 <img src="{{ asset('assets/images/products/product-img-1.jpg') }}" alt="">
                             </td>
-                            <td>
+                            <td class="center">
                                 Strawberry
                             </td>
                             <td>
@@ -72,7 +72,7 @@
                             <td class="center">
                                 <img src="{{ asset('assets/images/products/product-img-2.jpg') }}" alt="">
                             </td>
-                            <td>
+                            <td class="center">
                                 Berry
                             </td>
                             <td>
@@ -94,7 +94,7 @@
                             <td class="center">
                                 <img src="{{ asset('assets/images/products/product-img-3.jpg') }}" alt="">
                             </td>
-                            <td>
+                            <td class="center">
                                 Lemon
                             </td>
                             <td>

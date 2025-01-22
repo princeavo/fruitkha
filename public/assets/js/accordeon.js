@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded",function(){
     accordeonsSections.forEach(function(accordeonSection){
         const accordeons = accordeonSection.querySelectorAll(".accordeon");
         accordeons.forEach(function(accordeon){
-            accordeon.classList.remove("active");
+            // accordeon.classList.remove("active");
             accordeon.querySelector(".accordeon-title")?.addEventListener("click",function(){
                 accordeons.forEach(function(accordeonParam){
                     if(accordeonParam != accordeon)

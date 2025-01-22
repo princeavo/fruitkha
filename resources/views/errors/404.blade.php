@@ -26,6 +26,7 @@
             <p>The page you requested for is not found.</p>
             <a href="#" class="btn-link">Back to Home</a>
         </section>
+        @include('partials.patners')
     </main>
     @include("partials.footer")
     <script src="{{ asset('assets/js/caroussel.js') }}"></script>

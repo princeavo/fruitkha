@@ -17,7 +17,7 @@
         @include("partials.welcome_section",["sectionSubTitle" => "Fresh and Organic","sectionTitle" => "Check Out Product"])
         <section id="checkout-section">
             <div class="accordeon-container">
-                <div class="accordeon">
+                <div class="accordeon active">
                     <div class="accordeon-title">
                         Billing Adress
                     </div>
