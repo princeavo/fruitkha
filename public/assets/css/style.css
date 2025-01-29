@@ -519,7 +519,7 @@ body > header #responsive-menu .bar::after{
     align-items: center;
     justify-content: center;
     gap: 30px;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 #our-products .products-container .product-container{
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
@@ -1416,6 +1416,19 @@ footer a#author-name{
     }
 }
 @media all and (max-width: 900px){
+    #contact{
+        flex-wrap: wrap;
+    }
+    #contact .contact-informations{
+        width: 100%;
+    }
+    #checkout-section{
+        flex-direction: column;
+        padding: 30px;
+    }
+    #checkout-section .accordeon-container,#checkout-section table{
+        width: 100%;
+    }
     body > header #responsive-menu{
         display: grid;
         place-items: center;
@@ -1429,8 +1442,8 @@ footer a#author-name{
         left:  var(--padding-section-inline);
         right: var(--padding-section-inline);
         top: 90px;
-        transition: 0.5s ease;
-        display: none                                                           ;
+        transition: 1s ease;
+        /* display: none                                                           ; */
         /* background-color: #013955; */
     }
     body > header nav ul{
@@ -1440,9 +1453,40 @@ footer a#author-name{
     body > header > nav > ul{
         background-color: #ddd;
     }
+    body > header nav.open{
+        /* display: block; */
+    }
     body > header nav ul li{
         background-color: #013955;
         width: 100%;
+        /* height: 0px; */
+        /* overflow: hidden; */
+        /* padding-block: 0 !important; */
+        /* font-size: 0; */
+        /* transition: all 1s ease; */
+    }
+    body > header nav ul li.has_submenus{
+        padding-block: 0 !important;
+    }
+    body > header nav ul li *,body > header nav ul li.has_submenus *{
+        padding-block: 0 !important;
+        margin-block: 0 !important;
+    }
+
+    #signe-product-presentation .image-product-container{
+        max-width: 150px;
+        max-height: 150px;
+    }
+    /* body > header nav.open ul li{
+        font-size: 16px;
+        overflow: visible;
+        height: auto;
+        padding-block: 10px;
+        transition: 1s ease;
+    } */
+    body > header > nav > ul{
+        opacity: 0;
+        overflow: hidden;
     }
     body > header nav ul li.has_submenus .submenu{
         display: flex !important;
@@ -1454,16 +1498,20 @@ footer a#author-name{
         background-color: #ddd;
         border-radius: unset;
         padding-top: 1px;
+        /* display: none !important; */
     }
     body > header nav ul li.has_submenus .submenu  li a{
         color: #aaa;
+        padding-left: 35px !important;
     }
     body > header nav > ul > li{
-        padding-block: 10px;
         padding-inline: 0 !important;
     }
     body > header nav ul li a{
         padding-left: 20px !important;
+    }
+    body > header nav.open ul li.has_submenus{
+        padding: 10px 0 0 0 !important;
     }
     body > header nav ul li.has_submenus{
         padding: 10px 0 0 0 !important;
@@ -1472,7 +1520,44 @@ footer a#author-name{
         display: inline-block !important;
         padding-bottom: 10px !important;
     }
-    body > header nav.open{
+    #deal-of-month{
         display: block;
+    }
+    #testimonial .about-us div:first-child{
+        display: none;
+    }
+    #our-products .products-container{
+        gap: 20px;
+    }
+    #our-products .products-container .product-container{
+        max-width: 350px;
+    }
+    #news .new-container{
+        flex-wrap: wrap;
+    }
+    #news .new-container .news{
+        min-width: 320px;
+        max-width: 320px;
+    }
+    footer > div:first-child{
+        flex-wrap: wrap;
+    }
+    footer > div:first-child > div{
+        flex: 1 1 calc(50% - 30px);
+    }
+    #why-us .image{
+        display: none;
+    }
+    #our-team .team-members{
+        flex-wrap: wrap;
+    }
+    #our-team .team-members .team-member{
+        margin-top: 60px;
+    }
+    #cart{
+        display: block;
+    }
+    .order-recap{
+        overflow-x: auto;
     }
 }
