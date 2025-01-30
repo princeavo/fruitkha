@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded",()=>{
         this.classList.toggle("open");
         // navHeader.classList.toggle("open");
         if(is_open){
-            nav_list.style.overflow = "hidden";
+            // nav_list.style.overflow = "hidden";
             for(let i = 0; i < height; i++){
                 nav_list.style.height = (height - i) + "px";
                 await delay(0.1)
@@ -18,10 +18,10 @@ document.addEventListener("DOMContentLoaded",()=>{
             nav_list.style.height ="0px";
         }else{
             // nav_list.style.height = "";
-            navHeader.style.overflow = "";
+            // navHeader.style.overflow = "";
             for(let i = 0; i < height; i++){
                 nav_list.style.height = (i) + "px";
-                await delay(0.1)
+                await delay(1)
             }
             nav_list.style.height ="";
         }

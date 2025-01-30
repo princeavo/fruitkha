@@ -1453,9 +1453,6 @@ footer a#author-name{
     body > header > nav > ul{
         background-color: #ddd;
     }
-    body > header nav.open{
-        /* display: block; */
-    }
     body > header nav ul li{
         background-color: #013955;
         width: 100%;
@@ -1559,5 +1556,89 @@ footer a#author-name{
     }
     .order-recap{
         overflow-x: auto;
+    }
+    #news-single{
+        display: block;
+    }
+    table.order-table{
+        width: 100%;
+    }
+}
+@media all and (max-width: 768px){
+    #news .new-container .news{
+        min-width: 280px;
+    }
+    footer #copyrigth{
+        display: block;
+    }
+    footer #copyrigth p{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    footer #copyrigth .icons{
+        justify-content: center;
+        min-width: 100%;
+    }
+    footer > div:first-child{
+        gap: 10px;
+    }
+    footer > div:first-child > div{
+        max-width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+    :root{
+        --padding-section-inline: 40px;
+    }
+    #signe-product-presentation .image-product-container{
+        min-width: 300px;
+        max-width: none;
+        max-height: 300px;
+        margin-left: 20px;
+    }
+}
+@media all and (max-width: 500px){
+    .main-section-title{
+        font-size: 28px;
+    }
+    :root{
+        --padding-section-inline : 20px;
+    }
+    #welcome-section .welcome-text .btns{
+        display: block;
+        width: 100%;
+    }
+    #welcome-section .welcome-text .btns .btn-link,
+    #welcome-section .welcome-text .btns .btn-link-outline{
+        display: block;
+        text-align: center;
+    }
+    #availability{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    #deal-of-month .days-off{
+        gap: 5px;
+    }
+    #deal-of-month .days-off .card{
+        padding: 10px;
+    }
+    #news .new-container .news{
+        max-width: none;
+    }
+    footer > div:first-child > div{
+        max-width: 100%;
+        min-width: 100%;
+    }
+    #why-us .raisons .raison{
+        flex: 100%;
+        max-width: none;
+    }
+    section h2{
+        font-size: 2rem;
+    }
+    #our-team .team-members .team-member{
+        max-width: none;
+        flex: 100%;
     }
 }
